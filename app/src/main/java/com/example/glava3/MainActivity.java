@@ -15,7 +15,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonClick(View view) {
-        Toast myToast = Toast.makeText(getApplicationContext(),"Уведомление", Toast.LENGTH_LONG);
+        Toast myToast = Toast.makeText(getApplicationContext(), "scorpion", Toast.LENGTH_SHORT);
+        myToast.show();
+    }
+    public void buttonClick1(View view) {
+        Toast myToast = Toast.makeText(getApplicationContext(), "subzero", Toast.LENGTH_SHORT);
+        myToast.show();
+    }
+    public void buttonClick2(View view) {
+        Toast myToast = Toast.makeText(getApplicationContext(), "luekang", Toast.LENGTH_SHORT);
+        myToast.show();
+    }
+    public void buttonClick3(View view) {
+        Toast myToast = Toast.makeText(getApplicationContext(), "melena", Toast.LENGTH_SHORT);
+        myToast.show();
+    }
+    public void buttonClick4(View view) {
+        Toast myToast = Toast.makeText(getApplicationContext(), "raiden", Toast.LENGTH_SHORT);
+        myToast.show();
+    }
+    public void buttonClick5(View view) {
+        Toast myToast = Toast.makeText(getApplicationContext(), "jhony", Toast.LENGTH_SHORT);
         myToast.show();
     }
 }
